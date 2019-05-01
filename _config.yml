@@ -1,15 +1,17 @@
 #
-# This file contains configuration flags to customize your site
+# Site Configuration
 #
 
 # Name of your site (displayed in the header)
 name: Alexander DuPree
-
-# Short bio or description (displayed in the header)
+locale: en_US
 description: Software Enthusiast | Computer Science Undergrad
-
-# URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://avatars3.githubusercontent.com/u/32920575?s=460&v=4
+search: true
+url: https://alexanderjdupree.github.io
+
+disqus: alexanderjdupree-github-io-1
+google_analytics:
 
 #
 # Flags below are optional
@@ -30,18 +32,6 @@ footer-links:
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: # channel/<your_long_string> or user/<user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/
-
-
-# Enter your Disqus shortname (not your username) to enable commenting on posts
-# You can find your shortname on the Settings page of your Disqus account
-disqus: alexanderjdupree-github-io-1
-
-# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-google_analytics:
-
-# Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
-# Used for Sitemap.xml and your RSS feed
-url: https://alexanderjdupree.github.io
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
@@ -70,7 +60,7 @@ kramdown:
 
 # Set the Sass partials directory, as we're using @imports
 sass:
-  style: :expanded # You might prefer to minify using :compressed
+  style: compressed
 
 # Use the following plug-ins
 gems:

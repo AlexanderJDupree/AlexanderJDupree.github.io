@@ -12,4 +12,4 @@ A place to include any other types of information that you'd like to include abo
 
 ### Contact me
 
-[email@gmail.com](mailto:alexander.j.dupree.com)
+[alexander.j.dupree@gmail.com](mailto:alexander.j.dupree.com)
