@@ -1,15 +1,18 @@
 ---
-layout: page
+layout: single
 title: About
 permalink: /about/
 ---
 
-Some information about you!
+This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
 
-### More Information
+You can find the source code for Minima at GitHub:
+[jekyll][jekyll-organization] /
+[minima](https://github.com/jekyll/minima)
 
-A place to include any other types of information that you'd like to include about yourself.
+You can find the source code for Jekyll at GitHub:
+[jekyll][jekyll-organization] /
+[jekyll](https://github.com/jekyll/jekyll)
 
-### Contact me
 
-[alexander.j.dupree@gmail.com](mailto:alexander.j.dupree.com)
+[jekyll-organization]: https://github.com/jekyll
