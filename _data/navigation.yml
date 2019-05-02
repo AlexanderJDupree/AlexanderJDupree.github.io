@@ -2,11 +2,14 @@
 main:
   - title: "Blog"
     description: "Read, Comment, Share"
-    url: https://alexanderjdupree.github.io/
+    url: /posts/
+  - title"Tags"
+    description: "Lookup posts by tag"
+    url: /tags/
   - title: "Projects"
     description: "Feel free to contribute"
     url: https://github.com/alexanderjdupree
   - title: "whoami"
     description: "Learn more about me"
-    url: https://alexanderjdupree.github.io/about
+    url: /about/
 
