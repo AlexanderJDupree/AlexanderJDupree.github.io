@@ -1,8 +1,31 @@
 ---
 permalink: /about/
+layout: single
+gallery:
+  - url: /assets/images/dogs.jpg
+    image_path: /assets/images/dogs-th.jpg
+    alt: "dogs.jpg"
+    title: "Daisy, Bella, Obi"
+  - url: /assets/images/cominghome.jpg
+    image_path: /assets/images/cominghome-th.jpg
+    alt: "cominghome.jpg"
+    title: "Coming Home"
+  - url: /assets/images/fall.jpg
+    image_path: /assets/images/fall-th.jpg
+    alt: "fall.jpg"
+    title: "Picture of Fall"
 title: "About"
 ---
 
-Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
+{% include gallery caption="" %}
 
-Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Consectetur eu fugiat veniam veniam Lorem labore magna eiusmod. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
+## whoami
+
+Given the bash command in the title it is safe to assume I am a command line nerd, technophile, and coding hobbyist. I am also a husband, father, and six-year Army veteran. I started programming in 2017 and it has been an extremely rewarding journey for me. This site is a way to communicate my passion for coding and lessons I have learned to anyone interested in my journey. 
+
+Currently, I am finishing up my B.S. in Computer Science with a Minor in Mathematics at Portland State University. I am capable in C/C++, Java, and Python. My current focus is to finish my degree, but I am always open to new opportunities and challenges. 
+
+When I'm not programming, I am reading, barbecuing, and spending time with my family. 
+
+[Resume](/assets/docs/AlexanderDupreeResume.pdf)
+
