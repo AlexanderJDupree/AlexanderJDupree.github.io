@@ -3,15 +3,15 @@ permalink: /about/
 layout: single
 gallery:
   - url: /assets/images/dogs.jpg
-    image_path: /assets/images/dogs.jpg
+    image_path: /assets/images/dogs-th.jpg
     alt: "dogs.jpg"
     title: "Daisy, Bella, Obi"
   - url: /assets/images/cominghome.jpg
-    image_path: /assets/images/cominghome.jpg
+    image_path: /assets/images/cominghome-th.jpg
     alt: "cominghome.jpg"
     title: "Coming Home"
   - url: /assets/images/fall.jpg
-    image_path: /assets/images/fall.jpg
+    image_path: /assets/images/fall-th.jpg
     alt: "fall.jpg"
     title: "Picture of Fall"
 title: "About"
