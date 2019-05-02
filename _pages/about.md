@@ -6,13 +6,13 @@ gallery:
     image_path: /assets/images/dogs-th.jpg
     alt: "dogs.jpg"
     title: "Daisy, Bella, Obi"
+  - url: /assets/images/fall.jpg
+    image_path: /assets/images/fall-th.jpg
+    alt: "fall.jpg"
   - url: /assets/images/cominghome.jpg
     image_path: /assets/images/cominghome-th.jpg
     alt: "cominghome.jpg"
     title: "Coming Home"
-  - url: /assets/images/fall.jpg
-    image_path: /assets/images/fall-th.jpg
-    alt: "fall.jpg"
     title: "Picture of Fall"
 title: "About"
 ---
