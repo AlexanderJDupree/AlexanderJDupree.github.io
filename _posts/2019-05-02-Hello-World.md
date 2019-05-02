@@ -1,16 +1,17 @@
 ---
 title: "Hello World"
+last_modified_at: 2019-05-02T12:38-05:00
 categories:
     - Blog
 tags:
     - introduction
 ---
 
-Hello World if often the first program someone writes, and I thought it fitting to be the title of my first blog. The idea behind `/dev/null` is to create a platform to share my journey and passion for coding with others. I hope that in the coming weeks, months and even years I will be able to produce quality content that the community can learn from and enjoy. 
+Hello World is often the first program someone writes, and I thought it fitting to be the title of my first blog. The idea behind `/dev/null` is to create a platform to share my journey and passion for coding with others. I hope that in the coming weeks, months, and even years I will be able to produce quality content that the community can learn from and enjoy. 
 
 ### Why /dev/null?
 
-Honestly, becuase I was out of ideas and I thought it sounded cool. For those who don't know redirecting IO to `/dev/null` on Unix systems discards all data written to it, but the null device still reports that the operation succeeded/failed. This can be handy for timing or testing programs with a lot of print statements that you don't care about. Anyways, `/dev/null` looks and sounds cool, and became the name of my blog. However, I am definitely open to new ideas for the name! If you have any suggestions please comment your ideas in the section below.
+Honestly, becuase I was out of ideas and I thought it sounded cool. For those who don't know, redirecting IO to `/dev/null` on Unix systems discards all data written to it, but the null device still reports that the operation succeeded/failed. This can be handy for timing or testing programs with a lot of print statements that you don't care about. Anyways, `/dev/null` looks and sounds cool, and became the name of my blog. However, I am definitely open to new ideas for the name! If you have any suggestions please comment your ideas in the section below.
 
 ### Plans and Projects
 
