@@ -3,6 +3,9 @@ title: "Hello World"
 last_modified_at: 2019-05-02T12:38-05:00
 categories:
     - Blog
+header:
+    image: /assets/images/twitter_header_photo_2.png
+    caption: "Hello World from /dev/null"
 tags:
     - introduction
 ---
