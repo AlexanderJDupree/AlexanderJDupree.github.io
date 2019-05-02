@@ -3,7 +3,7 @@ main:
   - title: "Blog"
     description: "Read, Comment, Share"
     url: /posts/
-  - title"Tags"
+  - title: "Tags"
     description: "Lookup posts by tag"
     url: /tags/
   - title: "Projects"
