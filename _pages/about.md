@@ -19,7 +19,7 @@ title: "About"
 
 {% include gallery caption="" %}
 
--> # **whoami** <-
+## **whoami**
 
 Given the bash command in the title it is safe to assume I am a command line nerd, technophile, and coding hobbyist. I am also a husband, father, and six-year Army veteran. I started programming in 2017 and it has been an extremely rewarding journey for me. This site is a way to communicate my passion for coding and lessons I have learned to anyone interested in my journey. 
 
