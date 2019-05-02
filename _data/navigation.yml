@@ -6,6 +6,9 @@ main:
   - title: "Tags"
     description: "Lookup posts by tag"
     url: /tags/
+  - title: "Categories"
+    description: "Lookup posts by category"
+    url: /categories/
   - title: "Projects"
     description: "Feel free to contribute"
     url: https://github.com/alexanderjdupree
