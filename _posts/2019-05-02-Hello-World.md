@@ -5,6 +5,7 @@ categories:
     - Blog
 header:
     image: /assets/images/twitter_header_photo_2.png
+    teaser: /asssets/images/logo.png
     caption: "Hello World from /dev/null"
 tags:
     - introduction
