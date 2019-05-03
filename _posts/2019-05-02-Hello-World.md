@@ -19,13 +19,13 @@ Honestly, becuase I was out of ideas and I thought it sounded cool. For those wh
 
 ### Plans and Projects
 
-The `/dev/null` blog will mostly mirror my studies and insights learned while finishing my undergraduate studies at Portland State University. This format will help me cement my understanding of difficult concepts taught here, as well as hopefully help others learn about topics that are typically difficult to broach. Programming is also a hobby of mine, so I will also be posting guides and updates on personal projects I have planned. Here are some personal project ideas I have planned and will likely write about:
+The `/dev/null` blog will mostly mirror my studies and insights learned while finishing my undergraduate studies at Portland State University. This format will help me cement my understanding of difficult concepts taught during my studies, as well as, hopefully, help others learn about these topics that are typically hard to breach. Since programming is also my hobby I will be posting guides and updates on personal projects I have planned. Here are some personal project ideas I have planned and will likely write about:
 
-1. Writing a Unix Shell in C++
-2. Developing a tabata timer app for Android
-3. Refactor and publish my reference counted String class for C++
-4. Build a collection of templated Data structures (Balanced trees, linked lists)
-5. Build something with Haskell (Learning Haskell right now)
+* Writing a Unix Shell in C++
+* Developing a tabata timer app for Android
+* Refactor and publish my reference counted String class for C++
+* Build a collection of templated Data structures (Balanced trees, linked lists)
+* Build something with Haskell (Learning Haskell right now)
 
-Of course, all these ideas are subject to change (And sadly may never happpen). If you have any fun project ideas in any language or with any toolset, please let me know in the comments below!
+Of course, all these ideas are subject to change (And sadly may never happpen). If you have any fun project ideas in any language or with any toolset, please let me know in the comments below! Also, follow me on twitter, [@dev_null42](https://twitter.com/dev_null42), to keep up to date with my latest posts and activites. 
 

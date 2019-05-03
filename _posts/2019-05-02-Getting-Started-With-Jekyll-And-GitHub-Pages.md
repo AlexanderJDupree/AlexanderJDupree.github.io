@@ -12,7 +12,7 @@ tags:
     - github
 ---
 
-This tutorial will guide you into creating a blog site with jekyll and GitHub pages just like this one. This site uses the [minimal mistakes](https://github.com/mmistakes/minimal-mistakes) Jekyll theme and this guide will reflect the setup process specific for this theme. If you're planning on using a different Jekyll theme the instructions may differ slightly. Overall, the process will be the same but I would suggest consulting the themes documentation as well. 
+This tutorial will guide you through creating a blog site with jekyll and GitHub pages just like this one. This site uses the [minimal mistakes](https://github.com/mmistakes/minimal-mistakes) Jekyll theme and this guide will reflect the setup process specific for this theme. If you're planning on using a different Jekyll theme the instructions may differ slightly, however, the overall process will be the same; but I would suggest consulting your themes documentation as well. 
 
 ### Prerequisites
 
@@ -155,5 +155,5 @@ There is so much more that the Minimal Mistakes theme, Jekyll, and Github pages 
 * [Jekyll Docs](https://jekyllrb.com/docs/)
 * [GitHub Pages Docs](https://help.github.com/en/categories/github-pages-basics)
 
-If you liked this guide, or have suggestions, please like, comment, and share!
+If you liked this guide, or have suggestions, please like, comment, and share! Also, make sure you follow me on twitter, [@dev_null42](https://twitter.com/dev_null42), to keep up to date my with my latest posts and activities. 
 
