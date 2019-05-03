@@ -96,6 +96,8 @@ There a couple of things to note here. First I changed the Minimal Mistakes skin
 avatar: /assets/images/awesome_profile.png
 ```
 
+Also, it is important to note that these configuration settings apply to the Minimal Mistakes theme only, and may or may not exist in other Jekyll themes. 
+
 Great, now that we have some basic settings added lets commit and push our changes to trigger a build. 
 
 ```bash
