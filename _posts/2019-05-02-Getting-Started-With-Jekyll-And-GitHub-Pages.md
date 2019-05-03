@@ -149,7 +149,7 @@ Now, commit and push our changes to see our new contact page.
 
 ### Finishing Up
 
-There is so much more that the Minimal Mistakes theme, Jekyll, and Github pages can do that is out of the scope of this tutorial. If you want to continue configuring and tuning your site just check out the official documentation!
+There is so much more that the Minimal Mistakes theme, Jekyll, and Github pages can do that is out of the scope of this tutorial. If you want to continue configuring and tuning your site just check out the official documentation! Also, the full repository from this tutorial can be found [here](https://github.com/jekyll-tutorial/jekyll-tutorial.github.io)
 
 [Minimal Mistakes Docs](https://mmistakes.github.io/minimal-mistakes/docs/configuration/)
 [Jekyll Docs](https://jekyllrb.com/docs/)
