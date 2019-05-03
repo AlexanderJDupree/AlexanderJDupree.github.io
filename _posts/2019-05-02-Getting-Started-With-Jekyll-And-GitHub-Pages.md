@@ -18,9 +18,9 @@ This tutorial will guide you into creating a blog site with jekyll and GitHub pa
 
 In this guide I'm going to assume a working knowledge of git, GitHub, and basic command line navigation. If you're not familiar with these skills here are some helpful guides. 
 
-[git - the simple guide](https://rogerdudler.github.io/git-guide/)
-[GitHub - Hello World](https://guides.github.com/activities/hello-world/)
-[Commmand Line Navigation](https://www.digitalocean.com/community/tutorials/basic-linux-navigation-and-file-management)
+* [git - the simple guide](https://rogerdudler.github.io/git-guide/)
+* [GitHub - Hello World](https://guides.github.com/activities/hello-world/)
+* [Commmand Line Navigation](https://www.digitalocean.com/community/tutorials/basic-linux-navigation-and-file-management)
 
 ### What is Jekyll?
 
@@ -151,9 +151,9 @@ Now, commit and push our changes to see our new contact page.
 
 There is so much more that the Minimal Mistakes theme, Jekyll, and Github pages can do that is out of the scope of this tutorial. If you want to continue configuring and tuning your site just check out the official documentation! Also, the full repository from this tutorial can be found [here](https://github.com/jekyll-tutorial/jekyll-tutorial.github.io)
 
-[Minimal Mistakes Docs](https://mmistakes.github.io/minimal-mistakes/docs/configuration/)
-[Jekyll Docs](https://jekyllrb.com/docs/)
-[GitHub Pages Docs](https://help.github.com/en/categories/github-pages-basics)
+* [Minimal Mistakes Docs](https://mmistakes.github.io/minimal-mistakes/docs/configuration/)
+* [Jekyll Docs](https://jekyllrb.com/docs/)
+* [GitHub Pages Docs](https://help.github.com/en/categories/github-pages-basics)
 
 If you liked this guide, or have suggestions, please like, comment, and share!
 
