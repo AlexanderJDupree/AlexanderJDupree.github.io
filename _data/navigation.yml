@@ -11,7 +11,7 @@ main:
     url: /categories/
   - title: "Projects"
     description: "Feel free to contribute"
-    url: https://github.com/alexanderjdupree
+    url: /projects/
   - title: "whoami"
     description: "Learn more about me"
     url: /about/
