@@ -40,15 +40,15 @@ The easiest way to build your site (and the way I did it) is to fork the Minimal
 
 First, fork the repository onto your account.
 
-![mmistakes-fork](assets/images/posts/mmistakes-fork.jpg)
+![mmistakes-fork](/assets/images/posts/mmistakes-fork.jpg)
 
 Then, from your forked repository settings page, change the name of the repo to \<username\>.github.io. In my example, I changed the repo name to 'jekyll-tutorial.github.io'. This step is important, naming the repository in this format indicates to GitHub that this is a static site.
 
-![rename-repo](assets/images/posts/rename_repo.png)
+![rename-repo](/assets/images/posts/rename_repo.png)
 
 And that's it! Your site will go live when GitHub builds it. Once GitHub builds the site it will look something like this. 
 
-![default_layout](assets/images/posts/default_layout.png)
+![default_layout](/assets/images/posts/default_layout.png)
 
 Of course our site is very boring right now. We need to edit the site configuration files to reflect our information. 
 
