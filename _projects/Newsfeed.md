@@ -2,7 +2,7 @@
 title: "Newsfeed"
 ---
 
-Built With: **Python**, **News API**, **Docker**, **CircleCi**
+Built With: **Python**, **News API**, **Docker**, **CircleCi**<br/>
 Skills Learned: **REST API Calls**, **HTTP Requests**, **Docker (basics)**, **Python Unit Testing**
 
 [![Build Status](https://travis-ci.com/AlexanderJDupree/newsfeed.svg?branch=master)](https://travis-ci.com/AlexanderJDupree/newsfeed)

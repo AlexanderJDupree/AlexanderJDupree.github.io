@@ -2,7 +2,7 @@
 title: "Linked Lists CPP"
 ---
 
-Built With: **C++**, **Catch2**, **Premake5**, **CircleCi**
+Built With: **C++**, **Catch2**, **Premake5**, **CircleCi**<br/>
 Skills Learned: **C++ Templates**, **Linked Lists**, **C++ Move Semantics**, **Unit Testing**
 
 [![CircleCI](https://circleci.com/gh/AlexanderJDupree/LinkedListsCPP.svg?style=svg)](https://circleci.com/gh/AlexanderJDupree/LinkedListsCPP)

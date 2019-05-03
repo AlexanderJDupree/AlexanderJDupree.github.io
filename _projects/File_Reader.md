@@ -2,7 +2,7 @@
 title: "File Reader"
 ---
 
-Built With: **C**, **Catch2**, **Premake5**
+Built With: **C**, **Catch2**, **Premake5**<br/>
 Skills Learned: **C File I/O**, **MMAP System Call**, **Windows/Unix Portability**
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/52406353f564468e9e301645f02127a3)](https://www.codacy.com/app/AlexanderJDupree/File_Reader?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=AlexanderJDupree/File_Reader&amp;utm_campaign=Badge_Grade)

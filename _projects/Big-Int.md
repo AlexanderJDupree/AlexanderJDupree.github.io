@@ -2,7 +2,7 @@
 title: "Big Int"
 ---
 
-Built With: **C**, **Catch2**, **Premake5**, **Travis-CI**
+Built With: **C**, **Catch2**, **Premake5**, **Travis-CI**<br/>
 Skills Learned: **CPU Numeric Representation**, **Inline Assembly**, **Arithmetic Algorithms**
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/52406353f564468e9e301645f02127a3)](https://www.codacy.com/app/AlexanderJDupree/File_Reader?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=AlexanderJDupree/File_Reader&amp;utm_campaign=Badge_Grade)
