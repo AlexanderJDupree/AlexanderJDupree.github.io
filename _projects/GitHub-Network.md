@@ -2,8 +2,9 @@
 title: "GitHub Network"
 ---
 
-Built With: **Python**, **GitHub API**, **networkx**, **requests**, **circleci**<br/>
 Skills Learned: **Pip Package Distribution**, **REST API Calls**, **HTTP Requests**, **Graph Visualization Tools**
+
+Built With: **Python**, **GitHub API**, **networkx**, **requests**, **circleci**<br/>
 
 [![CircleCI](https://circleci.com/gh/AlexanderJDupree/GithubNetwork.svg?style=svg)](https://circleci.com/gh/AlexanderJDupree/GithubNetwork)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/664afc53dad245dbaa9d778652b2ce12)](https://www.codacy.com/app/AlexanderJDupree/GithubNetwork?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=AlexanderJDupree/GithubNetwork&amp;utm_campaign=Badge_Grade)
