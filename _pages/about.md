@@ -29,3 +29,10 @@ When I'm not programming, I am reading, barbecuing, and spending time with my fa
 
 [Resume](/assets/docs/AlexanderDupreeResume.pdf)
 
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-8670667935520247",
+    enable_page_level_ads: true
+  });
+</script>

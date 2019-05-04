@@ -29,3 +29,11 @@ The `/dev/null` blog will mostly mirror my studies and insights learned while fi
 
 Of course, all these ideas are subject to change (And sadly may never happpen). If you have any fun project ideas in any language or with any toolset, please let me know in the comments below! Also, follow me on twitter, [@dev_null42](https://twitter.com/dev_null42), to keep up to date with my latest posts and activites. 
 
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-8670667935520247",
+    enable_page_level_ads: true
+  });
+</script>
+
