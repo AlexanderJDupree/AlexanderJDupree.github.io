@@ -22,21 +22,21 @@ Over the next few weeks I will be implementing a basic Unix Shell in Haskell. I'
 
 The first step in writing a shell is deciding how far down the rabbit hole I want to go. So here are the features and functionality I plan on implementing. 
     
-    1. Shell initialization with a configuration file
-    2. Environment variable expansion
-    3. Command piping
-    4. IO redirection
-    5. wildcard (glob) expansions
-    6. Built-in utilities (cd, kill, etc.)
-    7. Command history
-    8. Job control
+* Shell initialization with a configuration file
+* Environment variable expansion
+* Command piping
+* IO redirection
+* wildcard (glob) expansions
+* Built-in utilities (cd, kill, etc.)
+* Command history
+* Job control
 
 These will be the priority features for the project. If I have the time, and ability I would also like to add the following extra features. 
 
-    1. Tab autocomplete
-    2. Fuzzy file search. 
-    3. Modal editing (Vim)
-    4. Shell scripting in Haskell
+* Tab autocomplete
+* Fuzzy file search. 
+* Modal editing (Vim)
+* Shell scripting in Haskell
 
 Of course, all of this is subject to change throughout the project. If you have any feature suggestions or general guidance for this project, please share them in the comments below!
 
