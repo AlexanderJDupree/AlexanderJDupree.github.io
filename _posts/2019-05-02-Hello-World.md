@@ -1,6 +1,6 @@
 ---
 title: "Hello World"
-last_modified_at: 2019-05-02T12:38-05:00
+last_modified_at: 2019-05-05T12:38-05:00
 categories:
     - Blog
 header:
@@ -21,7 +21,7 @@ Honestly, becuase I was out of ideas and I thought it sounded cool. For those wh
 
 The `/dev/null` blog will mostly mirror my studies and insights learned while finishing my undergraduate studies at Portland State University. This format will help me cement my understanding of difficult concepts taught during my studies, as well as, hopefully, help others learn about these topics that are typically hard to breach. Since programming is also my hobby I will be posting guides and updates on personal projects I have planned. Here are some personal project ideas I have planned and will likely write about:
 
-* Writing a Unix Shell in C++
+* Writing a Unix Shell in ~~C++~~ Haskell
 * Developing a tabata timer app for Android
 * Refactor and publish my reference counted String class for C++
 * Build a collection of templated Data structures (Balanced trees, linked lists)
