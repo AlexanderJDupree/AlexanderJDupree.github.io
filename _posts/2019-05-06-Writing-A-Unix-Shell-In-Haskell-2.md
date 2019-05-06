@@ -134,7 +134,7 @@ runInterpreter = do
 
 ## Running Ash For The First Time.
 
-Great, now that we have our skeleton setup lets build and run Ash for the first time. We should expect that Ash will print our `"$ "` prompt, read in a line of input, print that line back to the screen and exit. However, we would be wrong. If we run `stack build` and `stack exec Ash` you'll actually see **Nothing**. But if we press enter we will get our prompt and a newline after that. This is because Haskell is lazy and the default buffering is working against us. By default, buffering is set to `LineBuffering` which only writes to `stdout` when a newline character is encoutered or if the buffer is full. So what's actually happening in our program is that the prompt is only being written to the `stdout` buffer until we press the Enter key, which sends back a newline character and flushes the buffer. This obviously isn't the desired behavior for our interactive shell, so we will need to flush the buffer our selves when we write the prompt. To do this add the following import:
+Great, now that we have our skeleton setup lets build and run Ash for the first time. We should expect that Ash will print our `"$ "` prompt, read in a line of input, print that line back to the screen and exit. However, we would be wrong. If we run `stack build` and `stack exec Ash` you'll actually see is "Initializer not yet implemented" and **nothing** else. But if we press enter we will get our prompt and a newline after that. This is because Haskell is lazy and the default buffering is working against us. By default, buffering is set to `LineBuffering` which only writes to `stdout` when a newline character is encoutered or if the buffer is full. So what's actually happening in our program is that the prompt is only being written to the `stdout` buffer until we press the Enter key, which sends back a newline character and flushes the buffer. This obviously isn't the desired behavior for our interactive shell, so we will need to flush the buffer our selves when we write the prompt. To do this add the following import:
 
 ```haskell
 import System.IO (hFlush, stdout)
@@ -150,6 +150,7 @@ writePrompt prompt = I.putStr prompt >> hFlush stdout
 Now if we run Ash and type "Hello World" we should see:
 
 ```bash
+Initializer not yet implemented
 $ Hello World
 Hello World
 ```
