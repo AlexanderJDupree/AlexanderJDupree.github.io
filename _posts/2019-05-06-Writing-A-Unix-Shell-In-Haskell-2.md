@@ -1,5 +1,5 @@
 ---
-title: "Writing A Unix Shell in Haskell - 1"
+title: "Writing A Unix Shell in Haskell - 2"
 categories:
     - Blog 
     - Guide
@@ -97,10 +97,10 @@ Because the interpreter will be dealing with unicode strings a lot I will be usi
 
 ### Data.Text vs. String
 
-As a quick aside, In Haskell builtin strings are no different from a list of `chars`, which means that they are a linked list (slower and not space efficient). Whereas, the `Data.Text` module is, from the package description:
+As a quick aside, builtin strings in Haskell are no different from a list of `chars`, which means that they are a linked list (slower and not space efficient). Whereas, the `Data.Text` module is, from the package description:
 
 > An efficient packed, immutable Unicode text type (both strict and lazy), with a powerful loop fusion optimization framework.
-
+>
 >The Text type represents Unicode character strings, in a time and space-efficient manner. This package provides text processing capabilities that are optimized for performance critical use, both in terms of large data quantities and high speed.
 
 However, to use the `Data.Text` module we will first need to include it in our build dependencies. Just add `- text` to the `dependencies` field in `package.yaml`
@@ -130,11 +130,16 @@ runInterpreter = do
     I.putStrLn command
 ```
 
-*Note*: The OverloadedStrings pragma at the top of the file enables us to use string literals interchangeably as `Data.Text` types. Also, since we are using `Data.Text` we must use their `IO` module as well if we don't want to convert back and forth from builtin strings.
+*Note*: The OverloadedStrings pragma at the top of the file enables us to use string literals interchangeably as `Text` data types. Also, since we are using `Data.Text` we must also use the `Data.Text.IO` module as well to prevent needless conversion from builtin strings to `Text`.
 
 ## Running Ash For The First Time.
 
-Great, now that we have our skeleton setup lets build and run Ash for the first time. We should expect that Ash will print our `"$ "` prompt, read in a line of input, print that line back to the screen and exit. However, we would be wrong. If we run `stack build` and `stack exec Ash` you'll actually see is "Initializer not yet implemented" and **nothing** else. But if we press enter we will get our prompt and a newline after that. This is because Haskell is lazy and the default buffering is working against us. By default, buffering is set to `LineBuffering` which only writes to `stdout` when a newline character is encoutered or if the buffer is full. So what's actually happening in our program is that the prompt is only being written to the `stdout` buffer until we press the Enter key, which sends back a newline character and flushes the buffer. This obviously isn't the desired behavior for our interactive shell, so we will need to flush the buffer our selves when we write the prompt. To do this add the following import:
+Great, now that we have our skeleton setup lets build and run Ash for the first time. We should expect that Ash will print our `"$ "` prompt, read in a line of input, print that line back to the screen and exit. However, we would be wrong. If we run `stack build` and `stack exec Ash` what you'll actually see is:
+
+```bash
+Initializer not yet implemented
+```
+Where's our prompt? If we mash a few keys and press Enter, however, we will see our prompt, and our mashed input again. This is because Haskell is lazy and the default buffering is working against us. By default, buffering is set to `LineBuffering` which only writes to `stdout` when a newline character is encoutered or if the buffer is full. So what's actually happening in our program is that the prompt is only being written to the `stdout` buffer until we press the Enter key, which sends back a newline character and flushes the buffer. This obviously isn't the desired behavior for our interactive shell, so we will need to flush the buffer our selves when we write the prompt. To do this add the following import:
 
 ```haskell
 import System.IO (hFlush, stdout)
@@ -147,7 +152,7 @@ writePrompt :: T.Text -> IO ()
 writePrompt prompt = I.putStr prompt >> hFlush stdout
 ```
 
-Now if we run Ash and type "Hello World" we should see:
+Now Ash will be interactive, printing the prompt and receiving the input on the same line. For example, if we run Ash and type "Hello World" we will get:
 
 ```bash
 Initializer not yet implemented
@@ -157,6 +162,6 @@ Hello World
 
 ## Wrapping Up
 
-Now we have identified and seperated the lifetime and responsibilities of the shell into different modules, and got a basic skeleton of a program running. In the next post I will be diving further into the interpreter loop and implement a basic parser and executor module. All code for this series can be found in the official *Ash* repository [here](https://docs.haskellstack.org/en/stable/README/). If you have any questions, comments, or suggestions, please feel free to leave them in the comment section below. 
+We have identified and seperated the lifetime and responsibilities of the shell into different modules, and got a basic skeleton of a program running. In the next post I will be diving further into the interpreter loop and implement a basic parser and executor module. All code for this series can be found in the official *Ash* repository [here](https://docs.haskellstack.org/en/stable/README/). If you have any questions, comments, or suggestions, please feel free to leave them in the comment section below. 
 
 
