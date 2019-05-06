@@ -98,5 +98,5 @@ And we should see `"Hello World!"` printed to the console! The last thing we sho
 
 ### Conclusion
 
-That takes care of setting up the project, in my next post we will start to implement the basic lifetime and interpreter loop for Ash. 
+That takes care of setting up the project, in my next post we will start to implement the basic lifetime and interpreter loop for Ash. If you have questions or comments, please feel free to leave them in the comment section below. Also, all the code for *Ash* can be found in my GitHub repo [here](https://docs.haskellstack.org/en/stable/README/).
 
