@@ -18,6 +18,14 @@ I've been reading the book [Real World Haskell](http://book.realworldhaskell.org
 
 Over the next few weeks I will be implementing a basic Unix Shell in Haskell. I've found that the best way to learn something is to just dive right in. As such, this project is designed to surround myself with the Haskell ecosystem and learn the in/outs of managing and building a Haskell project. But why choose a Unix shell as my first project? A Unix shell provides some interesting learning opportunites. A proper shell will have to manage IO, concurrency, implement signal handlers and a variety of other features. As such, a Unix shell provides a high-level of challenge while providing multiple problems to solve. This complexity appealed to me, so I will be documenting my successes, failures, and lessons learned throughout this project.
 
+### What is a Unix Shell?
+
+Other sources can probably explain it much better than I can, but here is a pretty succint quote from Wikipedia:
+
+> A Unix shell is a command-line interpreter or shell that provides a command line user interface for Unix-like operating systems
+
+In essence, a shell is the users interface for the operating system proper. 
+
 ### Project Goals
 
 The first step in writing a shell is deciding how far down the rabbit hole I want to go. So here are the features and functionality I plan on implementing. 
