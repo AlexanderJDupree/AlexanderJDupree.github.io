@@ -16,7 +16,7 @@ In my [previous post](https://alexanderjdupree.github.io/blog/guide/tutorial/pro
 
 ### Getting Started
 
-Before we can start writing code, we will need to setup the project structure and name our shell. Being the creative genius that I am (I'm not) I decided to name my unix shell **Ash** for *Alex-SHell*. To build the project itself, i'm going to use [stack](https://docs.haskellstack.org/en/stable/README/). *Stack* is a cross-platform utility for building Haskell projects; it is very user-friendly, taking care of a lot of linking and build tasks behind the scenes. To get stack run: 
+Before we can start writing code, we will need to setup the project structure and name our shell. Being the creative genius that I am (I'm not) I decided to name my unix shell **Ash** for **A**lex-**SH**ell. To build the project itself, i'm going to use [stack](https://docs.haskellstack.org/en/stable/README/). *Stack* is a cross-platform utility for building Haskell projects that is very user-friendly. Stack takes care of a lot build tasks, like downloading dependencies, behind the scenes. To get stack, run: 
 
 ```bash
 curl -sSL https://get.haskellstack.org/ | sh
@@ -88,13 +88,13 @@ stack setup
 stack build
 ```
 
-This may take awhile if its the first time you're running stack. Stack will download and install any requisite dependencies for your project, include GHC (The Glasgow Haskell Compiler). Once the build stage is finished we can run:
+This may take awhile if its the first time you're running stack. Stack will download and install any requisite dependencies for your project, including GHC (The Glasgow Haskell Compiler). Once the build stage is finished we can run:
 
 ```
 stack exec Ash-exe
 ```
 
-And we should see `"Hello World!"` printed to the console! The last step in the process is to now initialize the project with `git` and push it to your favorite git repsository host.
+And we should see `"Hello World!"` printed to the console! The last thing we should do is initialize the project with `git` or some other form of version control.
 
 ### Conclusion
 
