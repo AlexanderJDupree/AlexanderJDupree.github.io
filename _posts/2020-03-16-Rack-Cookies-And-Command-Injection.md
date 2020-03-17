@@ -15,7 +15,7 @@ and command injection exercise from pentesterlab
 
 You can either watch the embedded video tutorial or read the notes below. 
 
-<iframe width="640" height="360" src="https://youtu.be/0i7nik_ELlw" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0i7nik_ELlw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Prerequisites
 
