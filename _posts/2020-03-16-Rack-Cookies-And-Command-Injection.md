@@ -10,8 +10,6 @@ tags:
     - ruby
 ---
 
-# Rack Cookies And Commands Injection
-
 This guide will outline how to complete the Rack Cookies
 and command injection exercise from pentesterlab
 
