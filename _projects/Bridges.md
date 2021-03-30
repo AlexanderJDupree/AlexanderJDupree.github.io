@@ -2,9 +2,9 @@
 title: "Linked Lists CPP"
 ---
 
-Skills Learned: **C++ Templates**, **Linked Lists**, **C++ Move Semantics**, **Unit Testing**
+Skills Learned: **Socket Programming**, **HTTP Standard**, **Server/Client Relationship**
 
-Built With: **C++**, **Catch2**, **Premake5**, **CircleCi**<br/>
+Built With: **C++**, **Google Test**, **CMake**, **GitHub Actions**<br/>
 
 [![CircleCI](https://circleci.com/gh/AlexanderJDupree/LinkedListsCPP.svg?style=svg)](https://circleci.com/gh/AlexanderJDupree/LinkedListsCPP)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/c24f1655cc534243b8ab5bcd60c8302c)](https://www.codacy.com/app/AlexanderJDupree/LinkedListsCPP?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=AlexanderJDupree/LinkedListsCPP&amp;utm_campaign=Badge_Grade)
@@ -13,5 +13,6 @@ Built With: **C++**, **Catch2**, **Premake5**, **CircleCi**<br/>
 
 **LinkedListsCPP** project features a collection of linked list data structures. These linked lists are fully templated and mirror the syntax and functionality of the C++ standard library containers. Currently only the linear linked list is implemented, but stay tuned for doubly and circular linked list releases!
 
-Check out the full repository [here](https://github.com/AlexanderJDupree/LinkedListsCPP/blob/master/README.md).
+**Bridges** is an educational project to implement a Http/s server. This project is still in its very early stages of development. 
 
+Check out the full repository [here](https://github.com/AlexanderJDupree/LinkedListsCPP/blob/master/README.md).
